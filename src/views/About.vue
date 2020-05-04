@@ -6,7 +6,7 @@
             <div class="row">
               <div class="span4">
                 <div class="content-heading"><span>nice to meet you!</span></div>
-                <img class="img-left" src="../assets/IMG_5867.jpg"/>
+                <img class="img-left" src="../assets/IMG_5846.jpg"/>
                 I'm a software engineering student at uOttawa.
                 I enjoy meeting <br>new <span class = "key-word">people</span> and exploring creative <span class = "key-word">solutions</span> to difficult problems. I'm highly interested in <span class = "key-word">product</span> management and UX <span class = "key-word">design</span>.
                 <br><br>
@@ -72,8 +72,8 @@ components: {
 }
 .span4 .img-left {
   float: left;
-  width: 340px;
-  height: 320px;
+  width: 360px;
+  height: 340px;
   opacity: 0.8;
 }
 
