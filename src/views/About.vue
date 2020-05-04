@@ -13,7 +13,7 @@
                 What excites me is systems design and I enjoy discussing <br> upcoming technology trends and their effects.<br>
 
                 <br>
-                When I'm not studying or planning campus <span class = "key-word">events</span>, you can find me <br> playing <span class = "key-word">hockey</span>, watching my favorite netflix series, or painting <br> portraits 🎨 
+                When I'm not studying or planning campus <span class = "key-word">events</span>, you can find me playing <span class = "key-word">hockey</span>, watching my favorite netflix series, or painting <br> portraits 🎨 
               </div>
             </div>
           </div>
@@ -82,7 +82,7 @@ components: {
   font-size: 18px;
   letter-spacing: 0.5px;
   line-height: 1.6;
-  margin-left:150px;
+  margin-left:120px;
 }
 
 .block{
