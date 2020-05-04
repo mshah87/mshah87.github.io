@@ -1,0 +1,135 @@
+/*
+media queries
+*/
+
+body {
+  font-family: Calibre, "San Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif;
+  margin: 0px;
+}
+
+.animate{
+  animation-name: bodySlideUp;
+  animation-duration: 1.5s;
+}
+
+@keyframes bodySlideUp {
+  0% {
+      -webkit-transform: translate(0px, 20px);
+      -moz-transform: translate(0px, 20px);
+      -ms-transform: translate(0px, 20px);
+      opacity: 0;
+  }
+  100% {
+      -moz-transform: translate(0px, 0px);
+      -ms-transform: translate(0px, 0px);
+      -webkit-transform: translate(0px, 0px);
+      opacity: 1
+  }
+}
+
+@media only screen and (max-width: 835px) {
+    a.intro br{
+     display: none;
+   }
+  }
+  
+  @media only screen and (max-width: 660px) {
+    footer .secondary-header{
+      width:400px;
+    }
+  
+    footer .hero__link{
+      line-height: 1em;
+    }
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .intro {
+      font-size: 2.1rem;
+    }
+  
+    .hello{
+      font-size: 4.0rem;
+    }
+  }
+  
+  @media only screen and (max-width: 574px) {
+    .span4{
+      font-size: 15px;
+      padding-top: 0px;
+  
+    }
+  
+    .span4 br{
+      display: none;
+    }
+  
+    .span4 .img-left {
+      margin-bottom: 25px;
+    }
+  }
+  
+  @media only screen and (max-width: 521px) {
+     .hello{
+      font-size: 3.8rem;
+    }
+  }
+  
+  @media only screen and (max-width: 415px) {
+  
+    footer .hero__link{
+      width: 500px;
+    }
+  
+    .hello {
+      font-size: 3.1rem;
+    }
+    .intro {
+      font-size: 1.7rem;
+    }
+  }
+  
+  @media only screen and (max-width: 375px) {
+    .hello {
+      font-size: 41px;
+      margin: none;
+      padding: none;
+    }
+  
+    .intro {
+      font-size: 2.2rem;
+    }
+  
+    .position{
+      font-size: 2.1rem;
+    }
+  
+    .hero-component{
+      margin: 12% auto;
+    }
+    
+    footer .secondary-header{
+      font-size: 2.7rem;
+    }
+  
+    footer .hero__link{
+      font-size: 2.7rem;
+    }
+  
+    .span4 .img-left {
+      width: 320px;
+      height: 300px;
+    }
+  }
+  
+  @media only screen and (max-width: 360px) {
+  
+    .hero__title{
+      line-height: 40px;
+    }
+  
+    .span4 .img-left {
+      width: 310px;
+      height: 290px;
+    }
+  }
