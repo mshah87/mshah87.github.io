@@ -57,4 +57,44 @@ export default {
   font-weight: 500;
   color: #5a63b3;
 }
+
+ @media only screen and (max-width: 605px) {
+     .hello{
+      font-size: 3.2rem;
+    }
+
+    .hero-component{
+      margin-left: 40px;
+    }
+  }
+  
+  @media only screen and (max-width: 415px) {
+    .hello {
+      font-size: 42px;
+    }
+  
+    .intro {
+      font-size: 30px;
+      margin-bottom: 17px;
+    }
+
+    .hero__title {
+      line-height: 1.6;
+    }
+
+    .position{
+      font-size: 30px;
+    }
+  
+    .hero-component{
+      margin: 12% auto;
+    }
+  }
+
+  @media only screen and (max-width: 360px) {
+    .hello{
+      font-size: 40px;
+    }
+  }
+
 </style>
