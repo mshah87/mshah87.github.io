@@ -6,7 +6,7 @@
             <div class="row">
               <div class="span4">
                 <div class="content-heading"><span>nice to meet you!</span></div>
-                <img class="img-left" src="../assets/IMG_5846.jpg"/>
+                <img class="img-left" src="../assets/portrait.png"/>
                 I'm a software engineering student at uOttawa.
                 I enjoy meeting <br>new <span class = "key-word">people</span> and exploring creative <span class = "key-word">solutions</span> to difficult problems. I'm highly interested in <span class = "key-word">product</span> management and UX <span class = "key-word">design</span>.
                 <br><br>
@@ -18,12 +18,18 @@
             </div>
           </div>
       </div>
+    
+    <div class = "about-footer">
+      <div class="social chat">
+         <a>Looking to start a project? Let's chat!</a>
+      </div>
       <div class="social">
             <a href="https://www.facebook.com/maulik.shah.c87" class="">Facebook</a>      
             <a href="https://github.com/mshah87" class="">GitHub</a>
             <a href="https://www.linkedin.com/in/maulikshah87/" class="">LinkedIn</a>
             <a href="mailto: mauliksc87@outlook.com" class="">Email</a>
       </div>
+    </div>
 </div>
 </template>
 
@@ -38,14 +44,22 @@ components: {
 
 <style>
 
+.about-footer{
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
 .social {
     width: 100%;
-    height: 100px;
-    margin-top: 100px;
-    margin-bottom: 50px;
+    height: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.social.chat a{
+    color: #606cd3;
+    font-size: 25px;
 }
 
 .social a{
@@ -59,6 +73,7 @@ components: {
   box-shadow:
     15px -15px 0 -3px  #606cd3;    
   transition: box-shadow ease-in 150ms;
+  border-radius: 15px;
 }
 
 .img-left:hover {
@@ -70,6 +85,7 @@ components: {
 .span4 img {
   margin-right: 150px;
 }
+
 .span4 .img-left {
   float: left;
   width: 360px;
@@ -90,7 +106,7 @@ components: {
 }
 
 .content-heading{
-  color: black;
+  color: #3b4287;
   font-size: 28px;
   letter-spacing: 0.5px;
   line-height: 1.6;
