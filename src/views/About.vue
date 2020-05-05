@@ -7,13 +7,13 @@
               <div class="span4">
                 <div class="content-heading"><span>nice to meet you!</span></div>
                 <img class="img-left" src="../assets/portrait.png"/>
-                I'm a software engineering student at uOttawa.
-                I enjoy meeting <br>new <span class = "key-word">people</span> and exploring creative <span class = "key-word">solutions</span> to difficult problems. I'm highly interested in <span class = "key-word">product</span> management and UX <span class = "key-word">design</span>.
-                <br><br>
-                What excites me is systems design and I enjoy discussing <br> upcoming technology trends and their effects.<br>
+                      I'm a software engineering student at uOttawa.
+                      I enjoy meeting <br>new <span class = "key-word">people</span> and exploring creative <span class = "key-word">solutions</span> to difficult problems. I'm highly interested in <span class = "key-word">product</span> management and UX <span class = "key-word">design</span>.
+                      <br><br>
+                      What excites me is systems design and I enjoy discussing <br> upcoming technology trends and their effects.<br>
 
-                <br>
-                When I'm not studying or planning campus <span class = "key-word">events</span>, you can find me playing <span class = "key-word">hockey</span>, watching my favorite netflix series, or painting <br> portraits 🎨 
+                      <br>
+                      When I'm not studying or planning campus <span class = "key-word">events</span>, you can find me playing <span class = "key-word">hockey</span>, watching my favorite netflix series, or painting <br> portraits 🎨 
               </div>
             </div>
           </div>
@@ -130,6 +130,28 @@ img.dp {
 
 span.key-word {
   color: #757fd8;
+}
+
+
+@media only screen and (max-width: 415px) {
+  .span4{
+      margin-left: 10px;
+      margin-right: 0;
+    }
+
+  .span4 img {
+      margin: auto;
+  }
+
+  .span4 .img-left {
+      width: 310px;
+      height: 290px;
+      margin-bottom: 30px;
+  }
+
+  .social.chat a {
+    font-size: 20px;
+  }
 }
 
 </style>
