@@ -72,12 +72,12 @@ nav {
 }
 
 .nav__list-item a {
-  color: #636262;
+  color: #3b4287;
   transition: 0.3s;
 }
 
 nav ul.nav__list li a:hover {
-  color: #757fd8;
+  color: #928f8f;
   text-decoration: none;
 }
 

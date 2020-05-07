@@ -2,6 +2,7 @@
 <div class="animate">
   <Header/>
   <Introduction/>
+  <p class="my-work">Stuff I've Done.</p>
   <div class="mainContentContainer">
       <Card/>
       <Card/>
@@ -43,4 +44,12 @@ export default {
     height: auto;
 }
 
+.my-work {
+    width: 100%;
+    font-size: 24px;
+    margin-bottom: 50px;
+    color: #636262;
+    display: flex;
+    justify-content: center;
+}
 </style>
