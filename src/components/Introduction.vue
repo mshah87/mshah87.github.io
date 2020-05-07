@@ -67,15 +67,39 @@ export default {
       margin-left: 40px;
     }
   }
-  
-  @media only screen and (max-width: 415px) {
+
+    
+  @media only screen and (max-width: 414px) {
     .hello {
-      font-size: 42px;
+      font-size: 45px;
     }
   
     .intro {
-      font-size: 30px;
-      margin-bottom: 17px;
+      font-size: 32px;
+      margin-bottom: 10px;
+    }
+
+    .position{
+      font-size: 32px;
+    }
+
+    .hero__title {
+      line-height: 1.6;
+    }
+
+    .hero-component{
+      margin: 12% auto;
+    }
+  }
+  
+  @media only screen and (max-width: 375px) {
+    .hello {
+      font-size: 40px;
+    }
+  
+    .intro {
+      font-size: 28px;
+      margin-bottom: 10px;
     }
 
     .hero__title {
@@ -83,7 +107,7 @@ export default {
     }
 
     .position{
-      font-size: 30px;
+      font-size: 28px;
     }
   
     .hero-component{
