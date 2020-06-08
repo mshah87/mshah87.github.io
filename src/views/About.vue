@@ -7,6 +7,7 @@
               <div class="span4">
                 <div class="content-heading"><span>nice to meet you!</span></div>
                 <img class="img-left" src="../assets/portrait.png"/>
+                  <div class = "me">
                       I'm a software engineering student at uOttawa.
                       I enjoy meeting <br>new <span class = "key-word">people</span> and exploring creative <span class = "key-word">solutions</span> to difficult problems. I'm highly interested in <span class = "key-word">product</span> management and UX <span class = "key-word">design</span>.
                       <br><br>
@@ -14,6 +15,7 @@
 
                       <br>
                       When I'm not studying or planning campus <span class = "key-word">events</span>, you can find me playing <span class = "key-word">hockey</span>, watching my favorite netflix series, or painting <br> portraits 🎨 
+                  </div>
               </div>
             </div>
           </div>
@@ -24,10 +26,10 @@
          <a>Looking to start a project? Let's chat!</a>
       </div>
       <div class="social">
-            <a href="https://www.facebook.com/maulik.shah.c87" class="">Facebook</a>      
+            <a href="mailto: mauliksc87@outlook.com" class="">Email</a>
             <a href="https://github.com/mshah87" class="">GitHub</a>
             <a href="https://www.linkedin.com/in/maulikshah87/" class="">LinkedIn</a>
-            <a href="mailto: mauliksc87@outlook.com" class="">Email</a>
+            <a href="https://www.instagram.com/_maulikshah/?hl=en" class="">Instagram</a>      
       </div>
     </div>
 </div>
@@ -45,7 +47,7 @@ components: {
 <style>
 
 .about-footer{
-  margin-top: 100px;
+  margin-top: 50px;
   margin-bottom: 50px;
 }
 
@@ -107,7 +109,7 @@ components: {
 
 .content-heading{
   color: #3b4287;
-  font-size: 28px;
+  font-size: 23px;
   letter-spacing: 0.5px;
   line-height: 1.6;
   margin-bottom: 60px;
@@ -133,7 +135,7 @@ span.key-word {
 }
 
 
-@media only screen and (max-width: 415px) {
+@media only screen and (max-width: 414px) {
   .span4{
       margin-left: 10px;
       margin-right: 0;
@@ -151,6 +153,14 @@ span.key-word {
 
   .social.chat a {
     font-size: 20px;
+  }
+
+  .about-footer{
+    margin-left: 27px;
+  }
+
+  .me{
+    padding-top: 320px;
   }
 }
 
