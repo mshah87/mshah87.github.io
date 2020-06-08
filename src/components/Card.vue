@@ -7,7 +7,7 @@
             </p>
             <div class="titleContainer">
                 <p class="label1" id="label11">
-                    Project
+                    Coming Soon
                 </p>
             </div>
         </div>

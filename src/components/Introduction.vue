@@ -24,7 +24,7 @@ export default {
   position: relative;
   max-width: 840px;
   margin-top: 2em;
-  margin-bottom: 4em;
+  margin-bottom: 5em;
   letter-spacing: -1px;
   line-height: 1.7;
   font-size: 31px;
