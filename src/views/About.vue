@@ -96,7 +96,7 @@ components: {
 }
 
 .span4{
-  color: black;
+  color: #2b2b2b;
   font-size: 18px;
   letter-spacing: 0.5px;
   line-height: 1.6;

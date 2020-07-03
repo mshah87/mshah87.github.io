@@ -22,7 +22,6 @@ html {
 }
 
 body{
-    font-family: 'Lato', sans-serif;
     color: #888;
     margin: 0;
 }

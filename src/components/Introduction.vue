@@ -17,9 +17,6 @@ export default {
 </script>
 
 <style>
-
-@import '../assets/styles/customstyle.css';
-
 .hero__title {
   position: relative;
   max-width: 840px;
@@ -36,7 +33,7 @@ export default {
 }
 
 .hello{
-  font-size: 2.2em;  
+  font-size: 2.3em;  
   font-weight: 600;
   color: #636262;
 }
@@ -120,5 +117,4 @@ export default {
       font-size: 40px;
     }
   }
-
 </style>
