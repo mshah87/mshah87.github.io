@@ -89,67 +89,18 @@ h2{
   padding-right: 30px;
   color: #3b4287;
 }
-
- @media only screen and (max-width: 605px) {
-     .hello{
-      font-size: 3.2rem;
-    }
-
-    .hero-component{
-      margin-left: 40px;
-    }
-  }
-
-    
+   
   @media only screen and (max-width: 414px) {
-    .hello {
-      font-size: 45px;
-    }
-  
     .intro {
       font-size: 32px;
       margin-bottom: 10px;
-    }
-
-    .position{
-      font-size: 32px;
-    }
-
-    .hero__title {
-      line-height: 1.6;
-    }
-
-    .hero-component{
-      margin: 12% auto;
     }
   }
   
   @media only screen and (max-width: 375px) {
-    .hello {
-      font-size: 40px;
-    }
-  
     .intro {
       font-size: 28px;
       margin-bottom: 10px;
-    }
-
-    .hero__title {
-      line-height: 1.6;
-    }
-
-    .position{
-      font-size: 28px;
-    }
-  
-    .hero-component{
-      margin: 12% auto;
-    }
-  }
-
-  @media only screen and (max-width: 360px) {
-    .hello{
-      font-size: 40px;
     }
   }
 </style>
