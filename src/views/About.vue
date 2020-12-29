@@ -1,5 +1,5 @@
 <template>
-<div class="animate">
+<div class="outer">
   <Header/>
       <div class="container" id="about">  
           <div class="block">
@@ -9,29 +9,17 @@
                 <img class="img-left" src="../assets/portrait.png"/>
                   <div class = "me">
                       I'm a software engineering student at uOttawa.
-                      I enjoy meeting <br>new <span class = "key-word">people</span> and exploring creative <span class = "key-word">solutions</span> to difficult problems. I'm highly interested in <span class = "key-word">product</span> management and UX <span class = "key-word">design</span>.
+                      I enjoy meeting new <span class = "key-word">people</span> and exploring creative <span class = "key-word">solutions</span> to difficult problems. I'm highly interested in <span class = "key-word">product</span> management and UX <span class = "key-word">design</span>.
                       <br><br>
-                      What excites me is systems design and I enjoy discussing <br> upcoming technology trends and their effects.<br>
+                      What excites me is systems design and I enjoy discussing upcoming technology trends and their effects.<br>
 
                       <br>
-                      When I'm not studying or planning campus <span class = "key-word">events</span>, you can find me playing <span class = "key-word">hockey</span>, watching my favorite netflix series, or painting <br> portraits 🎨 
+                      When I'm not studying or planning campus <span class = "key-word">events</span>, you can find me playing <span class = "key-word">hockey</span>, watching my favorite netflix series, or painting portraits 🎨 
                   </div>
               </div>
             </div>
           </div>
       </div>
-    
-    <div class = "about-footer">
-      <div class="social chat">
-         <a>Looking to start a project? Let's chat!</a>
-      </div>
-      <div class="social">
-            <a href="mailto: mauliksc87@outlook.com" class="">Email</a>
-            <a href="https://github.com/mshah87" class="">GitHub</a>
-            <a href="https://www.linkedin.com/in/maulikshah87/" class="">LinkedIn</a>
-            <a href="https://www.instagram.com/_maulikshah/?hl=en" class="">Instagram</a>      
-      </div>
-    </div>
 </div>
 </template>
 
@@ -45,31 +33,6 @@ components: {
 </script>
 
 <style>
-
-.about-footer{
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
-
-.social {
-    width: 100%;
-    height: 60px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.social.chat a{
-    color: #606cd3;
-    font-size: 25px;
-}
-
-.social a{
-  text-decoration: none;
-  color: #a5a5a5;
-  padding-right: 30px;
-}
-
 .img-left {
   height: 80vh;
   box-shadow:
@@ -100,7 +63,6 @@ components: {
   font-size: 18px;
   letter-spacing: 0.5px;
   line-height: 1.6;
-  margin-left:120px;
 }
 
 .block{

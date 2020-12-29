@@ -1,28 +1,4 @@
-/*
-media queries
-*/
-
 body {
   font-family: "San Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif;
   margin: 0px;
-}
-
-.animate{
-  animation-name: bodySlideUp;
-  animation-duration: 1.5s;
-}
-
-@keyframes bodySlideUp {
-  0% {
-      -webkit-transform: translate(0px, 20px);
-      -moz-transform: translate(0px, 20px);
-      -ms-transform: translate(0px, 20px);
-      opacity: 0;
-  }
-  100% {
-      -moz-transform: translate(0px, 0px);
-      -ms-transform: translate(0px, 0px);
-      -webkit-transform: translate(0px, 0px);
-      opacity: 1
-  }
 }

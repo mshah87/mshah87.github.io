@@ -1,12 +1,7 @@
 <template>
-<div class="animate">
+<div class="outer">
   <Header/>
   <Introduction/>
-  <p class="my-work">Stuff I've Done.</p>
-  <div class="mainContentContainer">
-      <Card/>
-      <Card/>
-  </div>
   <Footer/>
 </div>
 </template>
@@ -15,7 +10,6 @@
 import Header from '../components/layout/Header' 
 import Footer from '../components/layout/Footer' 
 import Introduction from '../components/Introduction' 
-import Card from '../components/Card' 
 import $ from 'jquery'
 
 export default {
@@ -24,7 +18,6 @@ export default {
     Header, 
     Footer,
     Introduction,
-    Card
   }, mounted(){
         $(document).ready(function() {
             $(".contentContainer").hover(function () {
@@ -39,17 +32,10 @@ export default {
 
 <style>
 @import '../assets/styles/customstyle.css';
-.mainContentContainer {
-    width: 100%;
-    height: auto;
-}
-
-.my-work {
-    width: 100%;
-    font-size: 24px;
-    margin-bottom: 50px;
-    color: #636262;
-    display: flex;
-    justify-content: center;
+.outer{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 66.5rem;
+    padding: 2.625rem 1.3125rem;
 }
 </style>

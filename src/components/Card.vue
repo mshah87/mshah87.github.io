@@ -1,13 +1,14 @@
 <template>
-<a href="">
+<div> 
+<a href="https://github.com/mshah87/bloodtestanalyser">
     <div class="contentContainer Active" id="content1">
         <div class="labelContainer" id="label1">
             <p class="label3" id="label13">
-                View work —
+                 uOttaHack 2020 - Winner best use of Google Cloud
             </p>
             <div class="titleContainer">
                 <p class="label1" id="label11">
-                    Coming Soon
+                    HemoAnalytics
                 </p>
             </div>
         </div>
@@ -17,6 +18,25 @@
         </div>
     </div>
 </a>
+<a href="https://picme-app.github.io/">
+    <div class="contentContainer Active" id="content1">
+        <div class="labelContainer" id="label1">
+            <p class="label3" id="label13">
+               Startup Pitch Competition - 4th place
+            </p>
+            <div class="titleContainer">
+                <p class="label1" id="label11">
+                    Picme
+                </p>
+            </div>
+        </div>
+        <div class="imageContainer">
+            <div class="image1" id="image1">
+            </div>
+        </div>
+    </div>
+</a>
+</div>
 </template>
 
 <script>
@@ -33,13 +53,8 @@ export default {
 
 .contentContainer {
     height: auto;
-    margin-top: 100px;
-    margin-right: 100px;
-    margin-left: 100px;
-    display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 50px;
     transition: 0.5s ease;
     opacity: 1;
 }
@@ -50,10 +65,10 @@ export default {
 }
 
 .imageContainer {
+    margin-bottom: 20px;
     display: flex;
     align-items: center;
-    width: 75%;
-    height: 300px;
+    height: 120px;
     overflow: hidden;
     transition: 0.5s ease;
     border-radius: 15px;
@@ -86,8 +101,6 @@ export default {
 }
 
 .labelContainer {
-    height: 200px;
-    width: 256px;
     display: flex;
     align-items: center;
     transition: 0.5s ease;
@@ -101,7 +114,8 @@ export default {
 }
 
 .label1 {
-    color: #384088;
+    color: #3b4287;
+    font-weight: 500;
     font-size: 18px;
     -ms-transform: translate(0px, -12px) skewY(0deg);
     -webkit-transform: translate(0px, -12px) skewY(0deg);
