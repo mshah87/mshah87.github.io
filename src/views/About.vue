@@ -5,7 +5,7 @@
           <div class="block">
             <div class="row">
               <div class="span4">
-                <div class="content-heading"><span>nice to meet you!</span></div>
+                <div class="content-heading"><span>Nice to meet you!</span></div>
                 <img class="img-left" src="../assets/portrait.png"/>
                   <div class = "me">
                       <br>
@@ -17,6 +17,18 @@
               </div>
             </div>
           </div>
+      </div>
+
+      <div class = "about-footer">
+        <div class="social chat">
+          <a>Looking to start a project? Let's chat!</a>
+        </div>
+        <div class="social">
+              <a href="mailto: mauliksc87@outlook.com" class="">Email</a>
+              <a href="https://github.com/mshah87" class="">GitHub</a>
+              <a href="https://www.linkedin.com/in/maulikshah87/" class="">LinkedIn</a>
+              <a href="https://www.instagram.com/_maulikshah/?hl=en" class="">Instagram</a>      
+        </div>
       </div>
 </div>
 </template>
@@ -31,6 +43,21 @@ components: {
 </script>
 
 <style>
+.about-footer{
+  margin-top: 30px;
+}
+.social {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social.chat a{
+  color: rgb(32, 32, 32);
+  font-size: 25px;
+}
+
 .img-left {
   height: 80vh;
   box-shadow:
