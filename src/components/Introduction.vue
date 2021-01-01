@@ -4,7 +4,7 @@
      <div class = "col left-info">
        <div class = "intro">
          <h2>
-           I'm a developer and product designer based in Toronto. I enjoy meeting new people and exploring creative solutions to difficult problems.
+           I'm a developer and product designer based in Toronto. I enjoy meeting new people and exploring creative solutions to real-world problems.
          </h2>
          <p>
            Incoming Software Engineering Intern at Amazon!

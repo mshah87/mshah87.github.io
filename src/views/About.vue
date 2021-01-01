@@ -8,13 +8,11 @@
                 <div class="content-heading"><span>nice to meet you!</span></div>
                 <img class="img-left" src="../assets/portrait.png"/>
                   <div class = "me">
-                      I'm a software engineering student at uOttawa.
-                      I enjoy meeting new <span class = "key-word">people</span> and exploring creative <span class = "key-word">solutions</span> to difficult problems. I'm highly interested in <span class = "key-word">product</span> management and UX <span class = "key-word">design</span>.
-                      <br><br>
-                      What excites me is systems design and I enjoy discussing upcoming technology trends and their effects.<br>
-
                       <br>
-                      When I'm not studying or planning campus <span class = "key-word">events</span>, you can find me playing <span class = "key-word">hockey</span>, watching my favorite netflix series, or painting portraits 🎨 
+                      I'm currently studying <span class = "key-word">Software Engineering</span> at the University of Ottawa.
+                      I love teaching myself new concepts and diving in deep to learn how the world truly works. 
+                      <br><br>When I'm not playing around with tech, you can find me <span class = "key-word">bouldering</span>, playing ice hockey, <span class = "key-word">painting</span> portraits, or reading about astronomy.
+                      <br><br>Next summer, I'll be interning at <span class = "key-word">Amazon</span> as a Software Engineer on the AWS team.
                   </div>
               </div>
             </div>
@@ -72,30 +70,17 @@ components: {
 .content-heading{
   color: #3b4287;
   font-size: 23px;
-  letter-spacing: 0.5px;
-  line-height: 1.6;
-  margin-bottom: 60px;
-  overflow: hidden;
+  font-weight: 500;
+  margin-bottom: 50px;
 }
 
 .content-heading span {
   padding-right: 20px;
 }
 
-img.dp {
-  position: absolute;
-  width: 350px;
-  height: 330px;
-  margin-top: 50px;
-  opacity: 0.8;
-  overflow: hidden;
-  pointer-events: none;
-}
-
 span.key-word {
   color: #757fd8;
 }
-
 
 @media only screen and (max-width: 414px) {
   .span4{
@@ -113,17 +98,8 @@ span.key-word {
       margin-bottom: 30px;
   }
 
-  .social.chat a {
-    font-size: 20px;
-  }
-
-  .about-footer{
-    margin-left: 27px;
-  }
-
   .me{
     padding-top: 320px;
   }
 }
-
 </style>
