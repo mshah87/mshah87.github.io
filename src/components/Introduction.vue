@@ -9,22 +9,19 @@
          <p>
            Incoming Software Engineering Intern at Amazon!
          </p>
-        <div class = "about-footer">
-          <div class="social">
+          <div class="social-media">
             <a href="mailto: mauliksc87@outlook.com" class="">Email</a>
             <a href="https://github.com/mshah87" class="">GitHub</a>
             <a href="https://www.linkedin.com/in/maulikshah87/" class="">LinkedIn</a>
             <a href="https://www.instagram.com/_maulikshah/?hl=en" class="">Instagram</a>      
-        </div>
+          </div>
     </div>
-       </div>
      </div>
 
     <div class = "col right-info">
       <h2>Projects</h2>
       <Card/>
     </div>
-  
   </div>
 </section>
 </template>
@@ -78,13 +75,13 @@ h2{
   padding-bottom: 20px;
 }
 
-.social {
+.social-media {
     height: 60px;
     display: flex;
     align-items: center;
 }
 
-.social a{
+.social-media a{
   text-decoration: none;
   padding-right: 30px;
   color: #3b4287;

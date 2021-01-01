@@ -20,10 +20,10 @@
       </div>
 
       <div class = "about-footer">
-        <div class="social chat">
+        <div class="lets-chat">
           <a>Looking to start a project? Let's chat!</a>
         </div>
-        <div class="social">
+        <div class="about-social">
               <a href="mailto: mauliksc87@outlook.com" class="">Email</a>
               <a href="https://github.com/mshah87" class="">GitHub</a>
               <a href="https://www.linkedin.com/in/maulikshah87/" class="">LinkedIn</a>
@@ -44,18 +44,31 @@ components: {
 
 <style>
 .about-footer{
-  margin-top: 30px;
+  margin-top: 20px;
 }
-.social {
-    width: 100%;
-    height: 60px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+.about-social {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.social.chat a{
-  color: rgb(32, 32, 32);
+
+.about-social a{
+  text-decoration: none;
+  padding-right: 30px;
+  color: #3b4287;
+}
+
+.lets-chat{
+  color: rgb(54, 54, 54);
   font-size: 25px;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .img-left {
