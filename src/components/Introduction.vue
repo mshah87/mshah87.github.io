@@ -86,18 +86,4 @@ h2{
   padding-right: 30px;
   color: #3b4287;
 }
-   
-  @media only screen and (max-width: 414px) {
-    .intro {
-      font-size: 32px;
-      margin-bottom: 10px;
-    }
-  }
-  
-  @media only screen and (max-width: 375px) {
-    .intro {
-      font-size: 28px;
-      margin-bottom: 10px;
-    }
-  }
 </style>
