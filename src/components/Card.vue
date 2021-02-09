@@ -86,7 +86,7 @@ export default {
     margin-bottom: 20px;
     display: flex;
     align-items: center;
-    height: 100px;
+    height: 90px;
     overflow: hidden;
     transition: 0.5s ease;
     border-radius: 15px;

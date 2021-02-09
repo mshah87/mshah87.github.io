@@ -2,8 +2,8 @@
 <section>
   <div class="row">
      <div class = "col left-info">
+       <h2>Hello 👋</h2>
        <div class = "intro">
-        <h2>Hello 👋</h2>
          <h2>
            I'm a developer and product designer based in Toronto. I enjoy meeting new people and exploring creative solutions to real-world problems.
          </h2>
@@ -43,7 +43,6 @@ export default {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  padding-bottom: 20px;
   color: rgb(32, 32, 32);
 }
 
@@ -68,6 +67,7 @@ h2{
   margin-bottom: 5%;
   line-height: 1.8;
   font-weight: 500;
+  margin-top: 0;
 }
 
 .intro p{
