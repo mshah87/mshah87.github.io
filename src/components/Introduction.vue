@@ -3,6 +3,7 @@
   <div class="row">
      <div class = "col left-info">
        <div class = "intro">
+        <h2>Hello 👋</h2>
          <h2>
            I'm a developer and product designer based in Toronto. I enjoy meeting new people and exploring creative solutions to real-world problems.
          </h2>
@@ -19,7 +20,7 @@
      </div>
 
     <div class = "col right-info">
-      <h2>Projects</h2>
+      <h2>Projects.</h2>
       <Card/>
     </div>
   </div>
@@ -64,7 +65,6 @@ h2{
 }
 
 .intro h2{
-  margin-top: 25%;
   margin-bottom: 5%;
   line-height: 1.8;
   font-weight: 500;

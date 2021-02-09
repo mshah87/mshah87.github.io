@@ -1,5 +1,23 @@
 <template>
 <div> 
+<a href="https://www.moduleup.com/">
+    <div class="contentContainer Active" id="content1">
+        <div class="labelContainer" id="label1">
+            <p class="label3" id="label13">
+                 Capstone - 3D SaaS Startup
+            </p>
+            <div class="titleContainer">
+                <p class="label1" id="label11">
+                    ModuleUp
+                </p>
+            </div>
+        </div>
+        <div class="imageContainer">
+            <div class="image1" id="image1">
+            </div>
+        </div>
+    </div>
+</a>
 <a href="https://github.com/mshah87/bloodtestanalyser">
     <div class="contentContainer Active" id="content1">
         <div class="labelContainer" id="label1">
@@ -68,7 +86,7 @@ export default {
     margin-bottom: 20px;
     display: flex;
     align-items: center;
-    height: 120px;
+    height: 100px;
     overflow: hidden;
     transition: 0.5s ease;
     border-radius: 15px;
