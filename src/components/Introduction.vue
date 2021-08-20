@@ -8,7 +8,7 @@
            I'm a developer and product designer based in Toronto. I enjoy meeting new people and exploring creative solutions to real-world problems.
          </h2>
          <p>
-           Incoming Software Engineering Intern at Amazon!
+           Software Engineering Intern at Amazon!
          </p>
           <div class="social-media">
             <a href="mailto: mauliksc87@outlook.com" class="">Email</a>

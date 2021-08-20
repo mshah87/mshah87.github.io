@@ -12,7 +12,7 @@
                       I'm currently studying <span class = "key-word">Software Engineering</span> at the University of Ottawa.
                       I love teaching myself new concepts and diving in deep to learn how the world around us works. 
                       <br><br>When I'm not playing around with tech, you can find me <span class = "key-word">bouldering</span>, playing ice hockey, <span class = "key-word">painting</span> portraits, or reading about quantum physics.
-                      <br><br>This summer, I'll be interning at <span class = "key-word">Amazon</span> as a Software Engineer on the eCommerce Platform.
+                      <br><br>For the Summer of 2021, I'll be interning at <span class = "key-word">Amazon</span> as a Software Engineer on the eCommerce Platform.
                   </div>
               </div>
             </div>
